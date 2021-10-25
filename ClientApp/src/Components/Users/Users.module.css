@@ -1,0 +1,16 @@
+.nav_pages {
+
+}
+
+.nav_pages span {
+    padding: 5px;
+    border: 1px solid black;
+}
+.nav_pages span:hover {
+    cursor: pointer;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}

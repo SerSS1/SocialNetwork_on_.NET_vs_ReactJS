@@ -1,0 +1,43 @@
+
+.messages_block {
+    display: grid;
+    grid-template-rows: 50px 600px 70px;
+    background-color: cornflowerblue;
+    float: right;
+    margin-right: 20px;
+}
+.companion_header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: indianred;
+}
+.companion_avatar {
+    height: 50px;
+}
+.companion_name {
+
+}
+.message_window {
+    background-color: brown;
+}
+.messages {
+
+}
+.user_message {
+    text-align: right;
+    color: darkblue;
+    margin-right: 20px;
+}
+.companion_message {
+    text-align: left;
+    color: indigo;
+    margin-left: 20px;
+}
+
+.input_message_block {
+    background-color: darkslateblue;
+    padding: 5px;
+}
+.input_message_block textarea {
+    width: 90%;
+}

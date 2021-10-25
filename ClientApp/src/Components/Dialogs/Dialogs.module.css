@@ -1,0 +1,10 @@
+.dialogs_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+
+    background-color: antiquewhite;
+}
+
+.companion_avatar {
+    height: 50px;
+}

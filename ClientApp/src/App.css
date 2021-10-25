@@ -1,0 +1,38 @@
+.App_wrapper {
+  display: grid;
+  width: 1080px;
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas:
+            "h h"
+            "n c";
+  grid-gap: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+.App_wrapper Header {
+  grid-area: h;
+  width: 1080px;
+  display: grid;
+}
+
+.App_wrapper .head {
+  display: grid;
+  grid-template-areas:"h1 l";
+}
+
+
+.App_wrapper Header h1 {
+  grid-area: h1;
+}
+.App_wrapper Header .login {
+  grid-area: l;
+}
+
+.App_wrapper Navbar {
+  grid-area: n;
+}
+.App_wrapper Main_content {
+  grid-area: c;
+}

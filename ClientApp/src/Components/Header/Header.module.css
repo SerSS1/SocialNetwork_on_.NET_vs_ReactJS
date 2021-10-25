@@ -1,0 +1,16 @@
+
+.head {
+    /*width: 100%;*/
+    background-color: burlywood;
+    text-align: center;
+}
+.head h1 {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login {
+    float: right;
+    margin-right: 20px;
+}

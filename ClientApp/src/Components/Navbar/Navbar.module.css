@@ -1,0 +1,25 @@
+.navbar_wrapper {
+    display: grid;
+    grid-auto-rows: 50px;
+    grid-template-columns: 1fr;
+    /*background-color: aqua;*/
+    text-align: center;
+}
+.navbar_item {
+    height: 40px;
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
+.navbar_item:hover {
+    background-color: antiquewhite;
+}
+
+.navbar_wrapper a {
+    text-decoration: none;
+}
+a.active {
+    background-color: indianred;
+}
+.clear {
+    clear: both;
+}

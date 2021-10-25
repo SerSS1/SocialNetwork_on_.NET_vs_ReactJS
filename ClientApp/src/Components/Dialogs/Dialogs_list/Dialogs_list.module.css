@@ -1,0 +1,31 @@
+.dialogs_list {
+    display: grid;
+    grid-auto-rows: 50px;
+    background-color: darkolivegreen;
+    margin-left: 10px;
+}
+.dialog_list_item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "im te";
+    background-color: lightblue;
+}
+.dialog_list_item img {
+    grid-area: im;
+    height: 50px;
+    float: left;
+}
+.dialog_info_wrapper {
+    grid-area: te;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "na m";
+}
+.dialog_list_user_name {
+    grid-area: na;
+}
+.last_user_message {
+    grid-area: m;
+}
+.companion_avatar {
+    height: 50px;
+}

@@ -1,0 +1,12 @@
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    background-color: darkgrey;
+    float: left;
+    overflow: auto;
+}
+.clear {
+    clear: both;
+}
